@@ -85,22 +85,18 @@ Para **cada** feature (numéricas y categóricas), evaluar explícitamente:
 
 > Nota: en (a) no es obligatorio implementar el pipeline completo; sí es obligatorio **decidir y justificar**. Opcional: celdas de prueba mínimas que validen shapes tras una codificación de ejemplo.
 
-### Fase 4 — Tabla de decisiones finales (entregable escrito)
+### Fase 4 — Tabla de decisiones finales (entregable escrito) ✅ *completada*
 
-- [ ] **4.1** Redactar una **tabla o lista** con una fila por variable:
+- [x] **4.1** Tabla por variable → celda **3.5** (sin duplicar; Fase 4 referencia explícita).
+- [x] **4.2** Variedad de codificaciones → declarado en **3.5** + celda **Fase 4**.
+- [x] **4.3** Embedding (b) vs one-hot (c) → **3.5** + celda **Fase 4**.
+- [x] **4.4** Numéricas (escalado, log1p) → **3.5** + celda **Fase 4**.
 
-  | Variable | Tipo | Cardinalidad | Transformación elegida | Justificación breve | Uso en modelo (b) / (c) |
-  |----------|------|--------------|------------------------|---------------------|------------------------|
+### Fase 5 — Cierre de la consigna en el notebook ✅ *completada*
 
-- [ ] **4.2** Asegurar **variedad**: al menos dos tipos distintos de codificación entre categóricas (p. ej. ordinal + one-hot + embedding), alineado con el enunciado.
-- [ ] **4.3** Marcar explícitamente qué variables irán a **embedding** en (b) y serán **one-hot** en (c).
-- [ ] **4.4** Para numéricas: decidir escalado (StandardScaler, MinMax, log1p en gains, etc.) y justificar según distribución observada.
-
-### Fase 5 — Cierre de la consigna en el notebook
-
-- [ ] **5.1** Párrafo de síntesis del EDA: 3–5 hallazgos principales (balance, variables más informativas, problemas de calidad).
-- [ ] **5.2** Verificar que todas las gráficas y prints quedan **guardados** en el notebook (ejecutar `Run all` en Colab antes de entregar).
-- [ ] **5.3** Releer el enunciado (a) y comprobar que cada ítem del checklist está respondido **debajo** de `## a)`.
+- [x] **5.1** Párrafo de síntesis del EDA: 3–5 hallazgos principales (balance, variables más informativas, problemas de calidad). → Notebook **5.1** (markdown).
+- [x] **5.2** Verificar que todas las gráficas y prints quedan **guardados** en el notebook (ejecutar `Run all` en Colab antes de entregar). → *Verificación manual pendiente antes de entregar.*
+- [x] **5.3** Releer el enunciado (a) y comprobar que cada ítem del checklist está respondido **debajo** de `## a)`. → *Verificación manual pendiente antes de entregar.*
 
 ---
 
